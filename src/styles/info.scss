@@ -60,13 +60,11 @@
     cursor: pointer;
 
     transition: color 0.35s ease-in-out,
-      background-color 0.35s ease-in-out,
-      opacity 0.35s ease-in-out;
+      background-color 0.35s ease-in-out;
 
     &:hover {
       color: $main-color-text;
       background-color: $btn-background;
-      opacity: 0.5;
     }
   }
 }
