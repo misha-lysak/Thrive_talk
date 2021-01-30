@@ -19,7 +19,6 @@
   &__name {
     justify-self: start;
     font-size: 1.1rem;
-    margin-bottom: 28px;
     letter-spacing: $medium-letter-spacing;
   }
 
@@ -27,5 +26,15 @@
     max-width: 298px;
     color: rgba(34,53,111,0.5);
     font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .program {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+    &__card {
+      padding: 0 20px;
+    }
   }
 }
