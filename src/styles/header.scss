@@ -96,7 +96,7 @@
     &:hover {
       color: $main-color-text;
       background-color: $btn-background;
-      opacity: 50%;
+      opacity: 0.5;
 
       &--active {
         color: $btn-background;
@@ -115,7 +115,7 @@
 
       &:hover {
         color: $main-color-text;
-        opacity: 50%;
+        opacity: 0.5;
       }
     }
   }
