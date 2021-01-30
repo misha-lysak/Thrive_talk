@@ -4,6 +4,8 @@
   align-items: center;
   justify-items: center;
 
+  background-color: $logo-color;
+
   &__article {
     display: flex;
     flex-direction: column;
