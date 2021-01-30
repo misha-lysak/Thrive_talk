@@ -1,0 +1,43 @@
+.product {
+  @extend %block-grid;
+
+  &__card {
+    @extend %card-grid;
+
+    height: $help-side;
+
+    
+
+    &--weight {
+      background-color: #ffe2de;
+    }
+
+    &--running {
+      background-color: #c4e769;
+    }
+
+    &--pumping {
+      background-color: #62d0df;
+    }
+
+    &--iron {
+      background-color: #0052c1;
+    }
+  }
+
+  &__name {
+    @extend %name-position;
+
+    &::before {
+      @extend %name-dot;
+
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .product {
+
+    grid-template-columns: 1fr;
+  }
+}
