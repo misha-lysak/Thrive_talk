@@ -5,6 +5,8 @@
   
   background-color: $header-color-background;
   color: $header-color-text;
+
+  overflow: hidden;
  
   &__section {
     display: grid;
