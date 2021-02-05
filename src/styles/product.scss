@@ -1,5 +1,6 @@
 .product {
   @extend %block-grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
 
   &__card {
     @extend %card-grid;
@@ -35,7 +36,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .product {
 
     grid-template-columns: 1fr;

@@ -2,7 +2,6 @@
   z-index: 1;
   position: relative;
   min-height: 840px;
-  
   background-color: $header-color-background;
   color: $header-color-text;
 
@@ -11,7 +10,9 @@
   &__section {
     display: grid;
     grid-template-rows: 1fr 5fr;
-    margin: 0 179px;
+    padding: 0 179px;
+    max-width: $max-screen;
+    margin: 0 auto;
   }
 
   &__top {
@@ -151,7 +152,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .header {
     &__section {
       display: flex;

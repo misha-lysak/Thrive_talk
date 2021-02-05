@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .contact {
     grid-template-columns: 1fr;
 

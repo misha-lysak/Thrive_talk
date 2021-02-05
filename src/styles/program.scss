@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .program {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 

@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .about {
     grid-template-columns: 1fr;
 

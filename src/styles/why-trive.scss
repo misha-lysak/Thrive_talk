@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .why-trive {
     grid-template-columns: 1fr;
 
@@ -49,5 +49,4 @@
       justify-self: end;
     }
   }
-
 }

@@ -45,9 +45,15 @@
       color: #9fc8ff;
     }
   }
+
+  &__photo {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
 }
 
-@media (max-width: 950px) {
+@media (max-width: $middle-screen) {
   .connection {
     grid-template-columns: 1fr;
 
